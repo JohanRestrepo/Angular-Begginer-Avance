@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-    templateUrl: './counter.html'
+    templateUrl: './counter-page.html'
 })
 
 export class CounterPageComponent{
@@ -9,5 +9,9 @@ export class CounterPageComponent{
 
     increaseBy(value: number){
         this.counter += value;
+    }
+    
+    resetCounter(){
+        this.counter = 10;
     }
 }
