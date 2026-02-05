@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-    templateUrl: './counter-page.html'
+    templateUrl: './counter-page.component.html'
 })
 
 export class CounterPageComponent{
